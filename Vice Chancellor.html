@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en" class=" js csstransitions desktop portrait csstransforms csstransforms3d"><!-- Basic --><head><meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+     <!-- Site Metas -->
+    <title>MIT:Manipur Institute of Technology</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" type="image/png" href="images/logo2.png" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- ALL VERSION CSS -->
+    <link rel="stylesheet" href="css/versions.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Modernizer for Portfolio -->
+    <script src="js/modernizer.js"></script>
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body class="host_version"> 
+
+	<!-- Modal -->
+	<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-header tit-up">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+				<h4 class="modal-title">Customer Login</h4>
+			</div>
+			<div class="modal-body customer-box">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs">
+					<li><a class="active" href="#Login" data-toggle="tab">Login</a></li>
+					<li><a href="#Registration" data-toggle="tab">Registration</a></li>
+				</ul>
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div class="tab-pane active" id="Login">
+						<form role="form" class="form-horizontal">
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="email1" placeholder="Name" type="text">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="exampleInputPassword1" placeholder="Email" type="email">
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-10">
+									<button type="submit" class="btn btn-light btn-radius btn-brd grd1">
+										Submit
+									</button>
+									<a class="for-pwd" href="javascript:;">Forgot your password?</a>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="tab-pane" id="Registration">
+						<form role="form" class="form-horizontal">
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" placeholder="Name" type="text">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="email" placeholder="Email" type="email">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="mobile" placeholder="Mobile" type="email">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="password" placeholder="Password" type="password">
+								</div>
+							</div>
+							<div class="row">							
+								<div class="col-sm-10">
+									<button type="button" class="btn btn-light btn-radius btn-brd grd1">
+										Save &amp; Continue
+									</button>
+									<button type="button" class="btn btn-light btn-radius btn-brd grd1">
+										Cancel</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	  </div>
+	</div>
+
+    <!-- LOADER -->
+	<div id="preloader" style="display: none;">
+		<div class="loader-container done">
+			<div class="progress-br float shadow done">
+				<div class="progress__item"></div>
+			</div>
+		</div>
+	</div>
+	<!-- END LOADER -->	
+
+    <!-- Start header -->
+	<header class="top-navbar">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html">
+					<img src="images/mit/logo4.png" alt="">
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-host" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbars-host">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+						<li class="nav-item dropdown">
+						    <a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Administration</a>
+							<div class="dropdown-menu" aria-labelledby="dropdown-a">
+								<a class="dropdown-item" href="Vice Chancellor.html">Vice-Chancellor</a>
+								<a class="dropdown-item" href="Principal.html">Principal</a>
+                                <a class="dropdown-item" href="Institute Administration.html">Institute Administration</a>
+                                <a class="dropdown-item" href="Hostel Administration.html">Hostel Administration</a>
+							</div>
+						</li>	
+						<li class="nav-item"><a class="nav-link" href="courses.html">Courses</a></li>
+                        <li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Facility</a>
+							<div class="dropdown-menu" aria-labelledby="dropdown-a">
+								<a class="dropdown-item" href="Library Facility.html">Libary Facility</a>
+								<a class="dropdown-item" href="Internet Facility.html">Internet Facility</a>
+                                <a class="dropdown-item" href="Hostel Facility.html">Hostel Facility</a>
+                                <a class="dropdown-item" href="Language Facility.html">Language Lab</a>
+							</div>
+                        </li>  
+						<li class="nav-item"><a class="nav-link" href="Teachers.html">Teachers</a></li>
+						<li class="nav-item"><a class="nav-link" href="pricing.html">Examination</a></li>
+						<li class="nav-item"><a class="nav-link" href="Gallery.html">Gallery</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+                        <li><a class="hover-btn-new log" href="#" data-toggle="modal" data-target="#login"><span>Sign In</span></a></li>
+                    </ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- End header -->
+	
+    <div id="overviews" class="section wb">
+        <div class="container">
+            <div class="section-title row text-center">
+                <div class="headline">
+                    <h2>Vice-Chancellor</h2>
+                </div>
+            </div><!-- end title -->
+
+
+			<div><div align="center"><img src="images/Vice.jpg" alt="">&nbsp;</div>
+
+
+			<p align="justify"><strong><span lang="EN-IN" style="font-family: 'Arial','sans-serif';"><span class="style3"><span lang="EN-IN" style="font-family: 'Arial','sans-serif';"><img src="../../../../../mit-beta/uploads/media/m1472179425.jpg" alt="" width="100%"></span></span></span></strong></p>
+			
+			<p style="text-align: center;"><strong>Prof.&nbsp;Naorem Lokendra&nbsp;Singh<br></strong></p>
+			<p style="text-align: center;"><strong>Vice-Chancellor, Manipur University</strong></p>
+			<p style="text-align: center;"><strong>Chairman, Governing Body of MIT</strong></p>
+
+
+			<div align="center">&nbsp;</div>
+            <div align="center">&nbsp;</div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>About US</h3>
+                        </div>
+                        <p> MIT Takyelpat campus is located just adjacent to NH 37 (New Cachar Road) approximately 4 Kms. from the heart of Imphal City. It is about 6 Kms from Imphal International Airport, Tulihal, Imphal.
+
+							MIT Manipur University Campus is located at Canchipur, Imphal, the capital city of Manipur. The University campus is spread over an area of 287 acres in the historic Canchipur which is the site of the old palace of Manipur “The Langthabal Konung (Palace)” which was established by Maharaja Ghambhir Singh in 1827 AD just after the liberation of Manipur from Burmese (Myanmar) occupation. Maharaja Gambhir Singh took his last breath at Canchipur. Canchipur is located along the National Highway (NH-2) at about 8 km. from the heart of the Imphal City and 12 km. from Imphal International Airport.</p>
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+
+				<div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Information Link</h3>
+                        </div>
+                        <ul class="footer-links">
+                            <li><a href="index.html">Home</a></li>
+							<li><a href="courses.html">Course</a></li>
+                            <li><a href="Teachers.html">Teachers</a></li>
+							<li><a href="#">Examination</a></li>
+							<li><a href="Gallery.html">Gallery</a></li>
+                        </ul><!-- end links -->
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+    
+
+    <a href="#" id="scroll-to-top" class="dmtop global-radius" style="bottom: -100px;"><i class="fa fa-angle-up"></i></a>
+
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
+  </body>
+</html>
